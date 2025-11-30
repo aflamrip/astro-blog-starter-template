@@ -10,8 +10,8 @@ content:
       - name: title
         label: Title
         type: string
-      - name: description
-        label: Description
+      - name: description      # ⬅️ احتفظ بتعريف واحد فقط
+        label: الوصف (Description)
         type: text
       - name: pubDate
         label: Publication Date
@@ -26,9 +26,6 @@ content:
       - name: heroImage
         label: Hero Image
         type: image
-      - name: description
-        label: وصف
-        type: text
 
   - name: site-settings
     label: Site Settings
