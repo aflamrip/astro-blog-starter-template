@@ -26,8 +26,8 @@ content:
       - name: heroImage
         label: Hero Image
         type: image
-      - name: body
-        label: Body
+      - name: description
+        label: وصف
         type: text
 
   - name: site-settings
